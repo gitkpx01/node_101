@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "price": 1500,
+        "title": "Iphonex",
+        "description": "Brand new Iphone x, fairly used."
+    },
+    {
+        "id": 2,
+        "price": 1500,
+        "title": "Iphonex",
+        "description": "Brand new Iphone x, fairly used."
+    },
+    {
+        "id": 3,
+        "price": 80.5,
+        "title": "Bling your Laptop with an Internet-Connected Light Show",
+        "description": "Create a web-connected light-strip API controllable from your website, using the Particle.io."
+    },
+    {
+        "id": 4,
+        "price": 80.5,
+        "title": "Create a Compact Survival Kit with LED Track Lighting",
+        "description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster"
+    },
+    {
+        "id": 5,
+        "price": 80.5,
+        "title": "Bubblesort Visualization",
+        "description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet's distance from the sun"
+    },
+    {
+        "id": 6,
+        "price": 80.5,
+        "title": "Light-up Corsage",
+        "description": "Light-up corsage I made with my summer intern."
+    },
+    {
+        "id": 7,
+        "price": 80.5,
+        "title": "Pastel hardware kit",
+        "description": "Pastel hardware kits complete with custom manufactured pastel alligator clips."
+    },
+    {
+        "id": 8,
+        "price": 80.5,
+        "title": "Heart-shaped LED",
+        "description": "custom molded heart shaped LED with sprinkles."
+    },
+    {
+        "id": 9,
+        "price": 80.5,
+        "title": "Black Sweatshirt",
+        "description": "Black sweatshirt hoody with the Sick of the Internet logo."
+    },
+    {
+        "id": 10,
+        "price": 80.5,
+        "title": "Sick of the Internet Pins",
+        "description": "Still some time to enter the pin/sticker giveaway! "
+    },
+    {
+        "id": 11,
+        "price": 80.5,
+        "title": "Hipster Dev",
+        "description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie."
+    },
+    {
+        "id": 12,
+        "price": 80.5,
+        "title": "Pretty Girls Code Tee",
+        "description": "Everyone’s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing."
+    },
+    {
+        "id": 13,
+        "price": 80.5,
+        "title": "Ruby Sis",
+        "description": "Styled in a dashiki, Ruby Sis is listening to music while coding in her favorite language, Ruby!"
+    },
+    {
+        "id": 14,
+        "price": 80.5,
+        "title": "Holographic Dark Moon Necklace",
+        "description": "Not sure if I'll be making more, get it while I have it in the store."
+    },
+    {
+        "id": 15,
+        "price": 80.5,
+        "title": "Floppy Crop",
+        "description": "Used up the Diskette fabric today to make 2 of these crops."
+    },
+    {
+        "id": "72633a8d-56dc-4e73-8ae6-829e9daf398b",
+        "title": "Iphonex",
+        "price": 800,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "f9eca9c2-c202-4954-9461-7b07b25b5cd5",
+        "title": "Iphonex",
+        "price": 800,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "8960f5f8-3a4a-454e-9a01-0392f88dfe9a",
+        "title": "Iphonex",
+        "price": 800,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "7b531641-64d2-459a-9234-4466517dfc7f",
+        "title": "Iphonex",
+        "price": 800,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "e58a7ed0-6948-479b-811b-abb3b486264c",
+        "title": "Iphone-6",
+        "price": 500,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "95e2b083-9242-4e6c-a1df-11e95ee5a2a5",
+        "title": "Iphone-6",
+        "price": 500,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "ba21bb06-4558-493f-9517-2b17495795ed",
+        "title": "Iphone-6",
+        "price": 500,
+        "description": "Brand new Iphonex, fairly used"
+    },
+    {
+        "id": "c72cee7e-419d-4779-8e86-dee5d041bf99",
+        "title": "Iphone-6",
+        "price": 500,
+        "description": "Brand new Iphonex, fairly used"
+    }
+]
