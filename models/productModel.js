@@ -63,12 +63,8 @@ function remove(id) {
 
         const newProducts =  products.filter((p) => p.id.toString() !== id.toString())
 
-        // console.log(newProducts)
-        // console.log(id)
-        // console.log(typeof id)
 
         writeDataToFile("./data/products.json", newProducts)
-        // console.log(newProducts)
         resolve()
     })
 }
