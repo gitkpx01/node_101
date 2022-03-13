@@ -44,22 +44,40 @@ function update(id, product) {
         const idx = products.findIndex((p) => p.id.toString() === id)
 
         const newProduct = {
-            title : product.title || products[idx].title,
-            price : product.price || products[idx].price,
-            description : product.description || products[idx].description
+            title: product.title || products[idx].title,
+            price: product.price || products[idx].price,
+            description: product.description || products[idx].description
         }
         console.log(newProduct)
 
-        products[idx] = {...products[idx],...newProduct}
+        products[idx] = { ...products[idx], ...newProduct }
 
         writeDataToFile("./data/products.json", products)
         resolve(products[idx])
     })
 }
 
+function remove(id) {
+
+    return new Promise((resolve, reject) => {
+
+        const newProducts =  products.filter((p) => p.id.toString() !== id.toString())
+
+        // console.log(newProducts)
+        // console.log(id)
+        // console.log(typeof id)
+
+        writeDataToFile("./data/products.json", newProducts)
+        // console.log(newProducts)
+        resolve()
+    })
+}
+
+
 module.exports = {
     findAll,
     findById,
     create,
-    update
+    update,
+    remove,
 }

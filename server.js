@@ -1,5 +1,5 @@
 const http = require("http")
-const { getProducts, getProduct, createProduct, updateProduct } = require("./controllers/productController")
+const { getProducts, getProduct, createProduct, updateProduct, removeProduct} = require("./controllers/productController")
 
 
 const server = http.createServer((req, res) => {
@@ -19,6 +19,11 @@ const server = http.createServer((req, res) => {
         const id = req.url.split("/")[3]
 
         updateProduct(req, res, id)
+    }
+    else if (req.url.match(/\/api\/products\/([0-9]+)\/delete/) && req.method === "DELETE") {
+        const id = req.url.split("/")[3]
+
+        removeProduct(req, res, id)
     }
     else {
 

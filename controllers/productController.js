@@ -18,8 +18,6 @@ async function getProducts(req, res) {
 
 }
 
-
-
 async function getProduct(req, res, id) {
 
     try {
@@ -65,8 +63,6 @@ async function createProduct(req, res) {
 
 }
 
-
-
 async function updateProduct(req, res, id) {
 
     try {
@@ -91,9 +87,32 @@ async function updateProduct(req, res, id) {
 }
 
 
+async function removeProduct(req, res, id) {
+
+    try {
+        const product = await ProductModel.findById(id)
+
+        if (!product) {
+            return res.end(JSON.stringify({ message: "Product not found" }))
+
+        } else {
+            const result = await ProductModel.remove(product.id)
+
+            res.writeHead(200, {
+                "Content-Type": "application/json"
+            })
+            return res.end(JSON.stringify({message: `Product ${id} removed`}))
+        }
+    } catch (error) {
+        console.log(error)
+    }
+
+}
+
 module.exports = {
     getProducts,
     getProduct,
     createProduct,
-    updateProduct
+    updateProduct,
+    removeProduct,
 }
